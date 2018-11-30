@@ -1,2 +1,0 @@
-# AzureActiveDirectory
-AzureActiveDirectory
