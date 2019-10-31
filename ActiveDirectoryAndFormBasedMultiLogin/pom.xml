@@ -9,8 +9,8 @@
 	<name>adal4j</name>
 	<url>http://maven.apache.org</url>
 	<properties>
-		<spring.version>4.3.19.RELEASE</spring.version>
-		<spring.security.version>4.1.1.RELEASE</spring.security.version>
+		<spring.version>5.2.0.RELEASE</spring.version>
+		<spring.security.version>5.2.0.RELEASE</spring.security.version>
 	</properties>
 
 	<dependencies>
@@ -21,8 +21,8 @@
 		</dependency>
 		<dependency>
 			<groupId>com.nimbusds</groupId>
-			<artifactId>oauth2-oidc-sdk</artifactId>
-			<version>5.24.1</version>
+			<artifactId>nimbus-jose-jwt</artifactId>
+			<version>8.2</version>
 		</dependency>
 		<dependency>
 			<groupId>org.json</groupId>
@@ -41,7 +41,6 @@
 			<version>1.7.5</version>
 		</dependency>
 
-		<!-- Spring 4 dependencies -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
@@ -52,7 +51,6 @@
 			<artifactId>spring-web</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-		<!-- Spring 4 dependencies -->
 
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -65,32 +63,26 @@
 			<version>2.8.11</version>
 		</dependency>
 
-		<!-- Spring Security 3 dependencies -->
-		<!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-core -->
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-core</artifactId>
 			<version>${spring.security.version}</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-web -->
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-web</artifactId>
 			<version>${spring.security.version}</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-config -->
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-config</artifactId>
 			<version>${spring.security.version}</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-taglibs -->
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-taglibs</artifactId>
 			<version>${spring.security.version}</version>
 		</dependency>
-		<!-- Spring Security 3 dependencies -->
 
 
         <dependency>
@@ -122,6 +114,11 @@
 			<version>3.0.5</version>
 		</dependency>
 
+		<dependency>
+			<groupId>javax.xml.bind</groupId>
+			<artifactId>jaxb-api</artifactId>
+			<version>2.3.1</version>
+		</dependency>
 
 	</dependencies>
 

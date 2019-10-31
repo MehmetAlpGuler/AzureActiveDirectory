@@ -1,5 +1,3 @@
-import com.fasterxml.jackson.annotation.JsonProperty;
-
 import javax.xml.bind.annotation.XmlRootElement;
 
 /**

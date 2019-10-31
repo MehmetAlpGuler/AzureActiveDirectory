@@ -1,9 +1,8 @@
 package com.microsoft.aad.dto;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-import org.springframework.context.annotation.Bean;
-
 import javax.xml.bind.annotation.XmlRootElement;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 /**
  * @author MehmetAlpGuler
